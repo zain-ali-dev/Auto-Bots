@@ -1,5 +1,6 @@
-streamlit==1.18.1
+streamlit==1.24.1
 requests==2.31.0
 beautifulsoup4==4.12.2
 transformers==4.28.1
 scikit-learn==1.2.2
+torch==2.0.1  # Add this if it's not already installed, as transformers depend on torch
